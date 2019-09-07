@@ -338,3 +338,5 @@ ASALocalRun/
 
 # BeatPulse healthcheck temp database
 healthchecksdb
+/StructureGen/env
+/StructureGen/Cu_N_ads/111/1N
