@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>17ed74a2-415d-4ae4-a8de-7171dc325c23</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>StructureGen.py</StartupFile>
+    <StartupFile>NAdsSearch.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -15,6 +15,7 @@
     <EnableNativeCodeDebugging>False</EnableNativeCodeDebugging>
     <InterpreterId>
     </InterpreterId>
+    <IsWindowsApplication>False</IsWindowsApplication>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -25,7 +26,12 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="StructureGen.py" />
+    <Compile Include="LayerRemoval.py" />
+    <Compile Include="SmallMolecules.py" />
+    <Compile Include="NAdsSearch.py" />
+    <Compile Include="test.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Vasp2Test.py">
       <SubType>Code</SubType>
     </Compile>
